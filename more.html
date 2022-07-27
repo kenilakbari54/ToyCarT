@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <style>
+     .dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.part1 {
+      float: left;
+      margin-top: 100px;
+      padding: 15px;
+      width: 33.33%;
+      background-color: black;
+      height: 420px;
+      text-align: justify;
+
+    }
+
+    .part2 {
+      float: left;
+      margin-top: 100px;
+
+      padding: 15px;
+      text-align: justify;
+      width: 33.33%;
+      height: 420px;
+      background-color: black;
+
+    }
+
+    .part3 {
+      float: left;
+      margin-top: 100px;
+      padding-left: 0px;
+      margin-left: 0px;
+
+      width: 33.33%;
+      background-color: black;
+      text-align: justify;
+      padding: 15px;
+      height: 420px;
+
+    }
+
+.dropdown-content a:hover {background-color: black;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: black;}
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>MY WEBSITE</title>
+
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light"
+  style=" z-index: 1; color: white; padding-top: 0px;height: 57px;position: sticky;top: 0;background-color:whi;margin-bottom: 50px;z-index: 1;">
+  <div class="container-fluid" style="background-color: black;z-index: 1;">
+    <a class="navbar-brand" href="index.html"
+      style="color: white;padding-top: 30px;margin-top: 30px;margin-bottom: 0px; margin-left: 15px;">
+      <img class="d-block mx-auto mb-4" src="Kenil (1).png" alt="" width="235px"
+        height="35">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"
+            style="color: white;margin-top: 30px;font-size: 20px;"><b>Home</b> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactus.html" style="color: white;margin-top: 30px;font-size: 20px;"><b>Contact
+              US</b> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" style="color: white;margin-top: 30px;font-size: 20px;"><b>
+              About</b></a>
+        </li>
+        <li class="nav-link"
+          style="text-decoration: none; margin-top: 30px;font-size: 20px;margin-right: 20px;margin-left: 20px;">
+          <a class="btn-1" href="login.html" style="text-decoration: none;"><b>
+
+              Login
+              / Sing Up
+            </b></a>
+        </li>
+        <li class="nav-item" style="margin-top: 30px;font-size: 20px;">
+          <center> <svg xmlns="http://www.w3.org/2000/svg" style=" margin-top: 7px; margin-left:5px ;color: white;"
+              width="30" height="30" fill="white" class="bi bi-cart4" viewBox="0 0 16 16"
+              style="float: right;margin-top: 30px;font-size: 20px;">
+              <path
+                d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+            </svg>
+          </center>
+        </li>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="cart.html" style="color: white;margin-top: 30px;font-size: 20px;"><b> Cart</b></a>
+        </li>
+      </ul>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" margin-top="30px"
+        font-size="20px" class="bi bi-file-person-fill" viewBox="0 0 16 16" style="margin-top: 30px;">
+        <path style="margin-top: 30px; "
+          d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z" />
+      </svg>
+
+
+      <div class="dropdown">
+        <button class="dropbtn"
+          style="font-size: 23px;background-color: black;margin-top: 30px;font-size: 20px;margin-right: 40px;"><b>
+            My Profile</b></button>
+        <div class="dropdown-content">
+          <a href="profile.html">My Profile</a>
+          <a href="notification.html">
+            Notification Preferences
+            <img
+              src="https://img.freepik.com/free-vector/notification-icon-bell-notification-sound-icons-incoming-inbox-message-bell-ring-alarm-clock-smartphone-application-alert-neumorphic-ui-ux-neumorphism-vector-eps-10_399089-3325.jpg?w=2000"
+              alt="" height="40px" width="40px" style="float: right; margin-top: 0px;padding-top: 0px;"></a>
+          <a href="order.html">Order</a>
+          <a href="24.html">24*7 Customer Care</a>
+          <a href="app.html">Download APP</a>
+          <a href="logout.html">Log Out</a>
+
+        </div>
+      </div>
+      </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+          style="margin-top: 30px">
+        <button class="btn btn-outline-success" type="submit"
+          style="background-color:white ;margin-top: 30px;">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+
+  <div class="part1" style="color: white;padding-top: 100px;text-align: center;">
+
+    <h3>ABOUT</h3>
+    <a href="contactus.html">
+      Contact uS
+    </a>
+    <br>
+    <a href="about.html">
+      About Us
+      <br>
+    </a>
+    <a href="info.html">
+      Information
+    </a>
+  </div>
+  <div class="part2" style="color: white;padding-top: 100px;text-align: center;">
+    <h2>SOCIAL</h2>
+    <a href="">
+      Facebook
+    </a>
+
+    <br>
+    <a href="">
+      Twitter
+    </a>
+    <br>
+    <a href="">
+      YouTube
+    </a>
+    <br>
+    <a href="">
+      Instagram
+    </a>
+  </div>
+  <div class="part3" style="color: white; padding-top: 100px;text-align: center;">
+
+    <h3>Mail Us :</h3>
+    <h4 class="h-custom-headline h4"><strong>Points of Contact</strong></h4>
+    <p><span style="color: #000000;"><span style="font-weight: 400;">SURAT | GUJRAT</span></span><br>
+      <span style="font-weight: 300;"><strong>395004 KATARGAM, <br>
+          SURAT, GJ 395004</span>
+    </p></strong>
+    <p></p>
+    <p><span style="color: #000000;"><span style="font-weight: 400;">Information and Sales</span></span><br>
+      <a href="mailto:kenilakbari54@gmail.com"><span style="font-weight: 400;">kenilakbari54@gmail.com</span></a>
+    </p>
+    <h4 class="h-custom-headline h4"><strong>Additional Office Locations</strong></h4>
+    <p><span style="color: #000000;"><span style="font-weight: 400;">GUJRAT</span></span><br>
+      <span style="font-weight: 300;"> <strong> SURAT ,GUJRAT. 395004 GJ </strong></span>
+    </p>
+
+  </div>
+
+</body>
+
+</html>
