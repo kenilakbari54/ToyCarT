@@ -28,10 +28,7 @@ if(isset($_POST['name']))
 $query=mysqli_query($connection,$sql);
 if($query)
 {
- <html>
- 
- 
- </html>
+  
 }
 else
 {

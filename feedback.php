@@ -1,11 +1,12 @@
 <?php error_reporting(0);
 if(isset($_POST['name']))
 {
-    $server="localhost";
-    $username="root";
-    $password="";
+    $server="sql201.epizy.com";
+    $username="epiz_32257577";
+    $password="TWUzHAbWgT0zJ";
+    $dbname="epiz_32257577_toycart";
 
-    $connection=mysqli_connect($server,$username,$password,"website_main");
+    $connection=mysqli_connect($server,$username,$password,$dbname);
 
     if(!$connection)
     {
