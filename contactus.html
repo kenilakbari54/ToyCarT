@@ -344,45 +344,52 @@ hr {
     <p style="font-size: 45px; font-family: 'Times New Roman', Times, serif;color:black;">
   FeedBack Form  
   </center>
-  <form action="feedback.php" method="post">
+  <form action="https://formspree.io/f/mrgdgkrk" method="post">
     <center>
       <table >
       <tr>
         <td>
-          <input type="text" name="name" placeholder="Enter Name Here" id="" style="width: 18rem;border-radius: 50px;width: 350px;" required>
+          <input type="text" name="name" placeholder="Enter Name Here" id="name" style="width: 18rem;border-radius: 50px;width: 350px;" required autocomplete="off"> 
         </td>
       </tr>
       <tr>
         <td>
-          <input type="text" name="surname" id="" style="width: 18rem;border-radius: 50px;width: 350px;"placeholder="Enter Surname Here" required>
+          <input type="text" name="surname" id="surname" style="width: 18rem;border-radius: 50px;width: 350px;"placeholder="Enter Surname Here" required autocomplete="off">
         </td>
       </tr>
       <tr>
         <td>
-          <input type="text" name="city" id="" style="width: 18rem;border-radius: 50px;width: 350px;"placeholder="Enter Your City Here" required>
+          <input type="text" name="city" id="city" style="width: 18rem;border-radius: 50px;width: 350px;"placeholder="Enter Your City Here" required autocomplete="off">
         </td>
       </tr>
       <tr>
         <td>
-          <input type="text" name="mobile" id=""style="width: 18rem;border-radius: 50px;width: 350px;" placeholder="Enter Mobile Number Here" required>
+          <input type="text" name="mobile" id="mobile"style="width: 18rem;border-radius: 50px;width: 350px;" placeholder="Enter Mobile Number Here" required autocomplete="off">
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <input type="text" name="Email" id="email" style="width: 18rem;border-radius: 50px;width: 350px;"placeholder="Enter Email id Here" required >
         </td>
       </tr>
       <tr>
         <td>
-          <input type="text" name="Email" id="" style="width: 18rem;border-radius: 50px;width: 350px;"placeholder="Enter Email id Here" required>
+          <input type="text" name="subject" id="subject"style="width: 18rem;border-radius: 50px;width: 350px;" placeholder="Enter subject Here" required autocomplete="off">
         </td>
       </tr>
       <tr>
         <td>
-          <input type="text"style="width: 18rem;border-radius: 50px;width: 350px; height: 80px" name="comment" placeholder="comment" required>
+          <input type="text" id="comment" style="width: 18rem;border-radius: 50px;width: 350px; height: 80px" name="comment" placeholder="comment" required autocomplete="off">
         </td>
       </tr>
     
     </table>
     <div class="clearfix">
      
-      <button type="submit" class="signup" style="width: 18rem;border-radius: 50px;width: 175px;">Submit</button>
+      <button type="submit" id="btn" class="signup" style="width: 18rem;border-radius: 50px;width: 175px;">Submit</button>
     </div>
+
 
   </center>
   <br><br>
@@ -459,5 +466,4 @@ hr {
 
   </form>
 </body>
-
 </html>
