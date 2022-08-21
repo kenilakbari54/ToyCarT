@@ -1,4 +1,4 @@
-<?php error_reporting(0);
+<?
 if(isset($_POST['name']))
 {
     $server="sql201.epizy.com";
